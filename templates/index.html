@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile - Honoré Koffi SONOU</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="static/style.css">
+    <!--<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">  Marche uniquement dans Flask de Python--> 
 </head>
 
 <body>
     <div class="container">
         <div class="profile-image">
-            <img src="{{ url_for('static', filename='Images/profile3.jpg') }}" alt="Profile Picture">
+            <img src="static/Images/profile3.jpg" alt="Profile Picture">
+            <!--<img src="{{ url_for('static', filename='Images/profile3.jpg') }}" alt="Profile Picture"> Marc uniquement dans Flask de Python -->
         </div>
         <header>
             <div class="banner">
